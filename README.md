@@ -1,2 +1,2 @@
 # AlphaPool
-An Open-Source Alpha Factor Pool for the Chinese A-Share Market.
+An Open-Source Alpha Mining Factory for the Chinese A-Share Market.
