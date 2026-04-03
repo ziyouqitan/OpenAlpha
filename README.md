@@ -10,7 +10,7 @@
 * **Execution:** All Alphas are **delay 1** (T+1 execution) using **VWAP**.
 
 Place the data folder in the root directory.
-https://drive.google.com/drive/folders/1-_89ALAXAwgqDcXcWPWzNp62vrk8PCok?usp=drive_link
+https://drive.google.com/drive/folders/1RRAKH0Pospp7o-RBLrXqWVYUav9F03-J?usp=drive_link
 
 
 ---
