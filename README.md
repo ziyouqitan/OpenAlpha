@@ -1,5 +1,5 @@
 # 🚀 OpenAlpha
-> An Open-Source Alpha Mining Factory for the Chinese A-Share Market.
+> An Open-Source Alpha Mining Factory for the Chinese A-Share Market.一个开源的A股市场量化因子挖掘框架，持续更新中
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Market](https://img.shields.io/badge/Market-A--Share-red.svg)](#)
