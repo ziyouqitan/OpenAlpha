@@ -16,10 +16,10 @@
 | ID | Formula (Alpha Expression) | Performance Backtest |
 | :-- | :--- | :--- |
 | **5000001** | `ts_mean(vwap - close, 5)` | <img src="https://github.com/user-attachments/assets/3bed5b43-76bb-4f57-b134-2e0ab534a155" width="400"> |
-| **5000003** | `cs_rank(cs_rank(open) - cs_rank(ts_delay(close, 1)))` | <img src="https://github.com/user-attachments/assets/0bc7e8a4-e665-4c26-985f-3a9d73a97685" width="400"> |
-| **5000004** | `ts_correlation(ts_ret(low, 1), ret1, 3)` | <img src="https://github.com/user-attachments/assets/c64ed177-7dab-4ad2-ae7e-dcde0e30bfbf" width="400"> |
-| **5000005** | `ts_ols(open / ts_delay(close, 1), ts_delay(volume, 1), 10)[2]` | <img src="https://github.com/user-attachments/assets/425bc58f-f3d8-43eb-8c4a-acfdd376235c" width="400"> |
-| **5000006** | `-ts_ols(close, ret1, 10)[2]` | <img src="https://github.com/user-attachments/assets/3b0e7262-8d9e-465f-a579-6970f2f2d3c7" width="400"> |
+| **5000003** | `cs_rank(cs_rank(open) - cs_rank(ts_delay(close, 1)))` | <img src="https://github.com/user-attachments/assets/0bc7e8a4-e665-4c26-985f-3a9d73a97685" width="1000"> |
+| **5000004** | `ts_correlation(ts_ret(low, 1), ret1, 3)` | <img src="https://github.com/user-attachments/assets/c64ed177-7dab-4ad2-ae7e-dcde0e30bfbf" width="1000"> |
+| **5000005** | `ts_ols(open / ts_delay(close, 1), ts_delay(volume, 1), 10)[2]` | <img src="https://github.com/user-attachments/assets/425bc58f-f3d8-43eb-8c4a-acfdd376235c" width="1000"> |
+| **5000006** | `-ts_ols(close, ret1, 10)[2]` | <img src="https://github.com/user-attachments/assets/3b0e7262-8d9e-465f-a579-6970f2f2d3c7" width="1000"> |
 | **5000009** | `-ts_correlation(close, close / vwap - 1, 20)` | <img src="https://github.com/user-attachments/assets/4f2a22d7-d939-4556-b078-bd2f5016ee43" width="400"> |
 | **5000010** | `ts_correlation(cs_rank(ts_delay(volume, 1)), cs_rank(ret1), 5)` | <img src="https://github.com/user-attachments/assets/317de94c-849a-4d6b-9046-3cee9b273913" width="400"> |
 | **5000011** | `-close * volume * ts_zscore(ret1, 2)` | <img src="https://github.com/user-attachments/assets/cde81214-6b4b-40b3-afa9-13c1257fcc82" width="400"> |
