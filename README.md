@@ -8,7 +8,6 @@
 ## 📖 Strategy Overview
 * **Universe:** China A-Shares CSI_500_INDEX.
 * **Execution:** All Alphas are **delay 1** (T+1 execution) using **VWAP**.
-* **Goal:** High-frequency/Middle-frequency alpha generation based on price-volume data.
 
 ---
 
