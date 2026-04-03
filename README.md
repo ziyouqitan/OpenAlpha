@@ -9,6 +9,10 @@
 * **Universe:** China A-Shares CSI_500_INDEX.
 * **Execution:** All Alphas are **delay 1** (T+1 execution) using **VWAP**.
 
+Place the data folder in the root directory.
+https://drive.google.com/drive/folders/1-_89ALAXAwgqDcXcWPWzNp62vrk8PCok?usp=drive_link
+
+
 ---
 
 ## 📊 Alpha Gallery
