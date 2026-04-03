@@ -30,7 +30,15 @@
 | **5000019** | `cs_indneut(high - close, cs_group_quantile(at_mask(close, ts_fill(csi_500_weight) > 0), 10))` | <img src="https://github.com/user-attachments/assets/beb2c00b-f02f-4f6d-9619-3bccc645b840" width="400"> |
 | **5000020** | `ts_mean(at_mask(vwap - close, cs_rank(at_mask(volume, ts_fill(csi_500_weight) > 0)) > 0.5), 2)` | <img src="https://github.com/user-attachments/assets/6a98788f-e3cc-4a5a-8236-eddbcb5e1f4e" width="400"> |
 | **5000024** | `ts_std(low/ts_delay(close,1)-1,100)-ts_std(high/ts_delay(close,1)-1,100)` | <img src="https://github.com/user-attachments/assets/76d1489f-1170-4ef6-8fa2-a9b08e6a6fc3" width="400"> |
-| **5000025** | `cs_indneut(ts_mean(open-close,2), cs_group_quantile(...))` | <img src="https://github.com/user-attachments/assets/039e2d88-fb8b-4378-80f7-8d38b743fe5f" width="400"> |
+| **5000025** | `cs_indneut(ts_mean(open-close,2),cs_group_quantile(at_mask(ts_std(close,2),ts_fill(csi_500_weight)>0),50))` | <img src="https://github.com/user-attachments/assets/039e2d88-fb8b-4378-80f7-8d38b743fe5f" width="400"> |
+| **5000026** | `ts_ols(csi_500_ret1,ret1,5)[0]` | <img width="800" height="800" alt="5000026" src="https://github.com/user-attachments/assets/812f7b0a-4354-4dfc-a989-2e37d1dc5649" /> |
+| **5000029** | `-ts_ols(ret1-csi_500_ret1,ret1,5)[0]` |<img width="800" height="800" alt="5000029" src="https://github.com/user-attachments/assets/fcec5533-cf6d-4f2e-a23b-5641b89becd1" /> |
+| **5000030** | `-ts_ols(ts_rank(close,10),ts_rank(np.abs(ret1),10),10)[0]` | <img width="800" height="800" alt="5000030" src="https://github.com/user-attachments/assets/ef3076f2-781b-47b0-ba76-1f9446104ab5" /> |
+| **5000031** | `-ts_ols(ts_rank(close,3),ts_rank(vwap,3),3)[2]` | <img width="800" height="800" alt="5000031" src="https://github.com/user-attachments/assets/942105fc-7bdd-42bd-8154-6f572b83e0d0" /> |
+| **5000032** | `-ts_regression(ts_rank(close,10),ts_rank(ret1,10),10,5)` | <img width="800" height="800" alt="5000032" src="https://github.com/user-attachments/assets/1b03e373-2a8b-4639-87fa-466984f09809" /> |
+| **5000033** | `-ts_regression(csi_500_open/ts_delay(csi_500_close,1),close/ts_delay(close,1),10,4)` | <img width="800" height="800" alt="5000033" src="https://github.com/user-attachments/assets/4159f0dc-5ac8-4480-a269-5ab658c38299" /> |
+| **5000034** | `ts_ols(ts_skewness(ret1,5),ret1,5)[0]` | <img width="800" height="800" alt="5000034" src="https://github.com/user-attachments/assets/e6c0b3ba-1909-4009-bc37-a0a5ca56f121" /> |
+| **5000035** | `-ts_regression(ts_skewness(ret1,3),ret1,7,9)` | <img width="800" height="800" alt="5000035" src="https://github.com/user-attachments/assets/b6d09937-bf76-4904-b2ca-49f09a3f422e" /> |
 
 ---
 
@@ -45,7 +53,7 @@ To replicate these Alphas, ensure you have the following basic operators:
 Welcome to submit your Alphas via Pull Requests! 
 
 ---
-© 2026 OpenAlpha Team. Managed by Gemini Factory.
+© 2026 OpenAlpha Team. 
 
 
 
