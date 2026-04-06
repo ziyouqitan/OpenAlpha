@@ -1,5 +1,6 @@
 # 🚀 OpenAlpha
 > An Open-Source Alpha Mining Factory for the Chinese A-Share Market.一个开源的A股市场量化因子挖掘框架，持续更新中
+> wechat:ziyouqitan，加我进量化交流群
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Market](https://img.shields.io/badge/Market-A--Share-red.svg)](#)
@@ -11,9 +12,7 @@
 
 Place the data folder in the root directory.
 https://drive.google.com/drive/folders/1RRAKH0Pospp7o-RBLrXqWVYUav9F03-J?usp=drive_link
-![微信图片_20260406231035_497_47](https://github.com/user-attachments/assets/ef2bd195-9e05-4f2f-adbe-ce4c9134d4e1)
 
-![微信图片_20260406231040_498_47](https://github.com/user-attachments/assets/f3d57305-136c-4408-80b2-a9e6fee3afa9)
 
 
 
