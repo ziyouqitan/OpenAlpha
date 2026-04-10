@@ -1,4 +1,4 @@
-### Combo of alphas in csi_5000_universe recently
+### Combo of alphas in csi_5000_universe
 <p align="center">
   <img width="1384" height="1378" alt="1edb2a5716b1b9f527730af6f4de4647" src="https://github.com/user-attachments/assets/932192b0-efde-4794-b74f-35b4aba038c7" />
 </p>
