@@ -1,5 +1,3 @@
----
-
 ### Combo
 `equal weight`
 
